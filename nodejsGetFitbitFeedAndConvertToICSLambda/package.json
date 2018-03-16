@@ -1,0 +1,27 @@
+{
+  "name": "fitbitcalendar",
+  "version": "1.0.0",
+  "description": "Fitbit calendar which fetches info from Fitbit API and converts to ICS file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "fitbit",
+    "calendar",
+    "ics"
+  ],
+  "author": "Osvaldas Rokas",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "ical-generator": "^0.2.10",
+    "moment": "^2.19.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
